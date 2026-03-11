@@ -39,8 +39,8 @@ def apply_enhanced_adaptive_filter(img_dir):
             enhanced_gray, 255, 
             cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
             cv2.THRESH_BINARY_INV, 
-            21, 
-            3
+            19, 
+            9
         )
         # 필터가 적용된 결과물로 기존 원본 파일을 덮어씁니다.
         cv2.imwrite(img_path, binary_inv)
