@@ -8,8 +8,9 @@ https://charlezz.com/?p=45322
        https://universe.roboflow.com/multimedia2024-ychar/carplate-hoowb/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true
        <img width="713" height="160" alt="image" src="https://github.com/user-attachments/assets/7305e7a7-cb95-40d1-93ac-17f02df8938d" />
 2. 해당 이미지를 Adaptive Threshold필터를 적용한 이미지로 모두 변경, roboflow_adaptive_threshold.py 참조
+       <img width="1235" height="631" alt="image" src="https://github.com/user-attachments/assets/a98883ad-3034-4b8c-bb6b-2cc21d3a96fc" />
        <img width="1259" height="658" alt="image" src="https://github.com/user-attachments/assets/db273c29-38ca-4bd0-bef8-4f310ba02361" />
-3. Yolo11m기반으로 train을 시킴 train.py파일 참조
+4. Yolo11m기반으로 train을 시킴 train.py파일 참조
        NoMachine을 사용해 학습중인 모습
        <img width="1709" height="976" alt="image" src="https://github.com/user-attachments/assets/1a2ab38a-89f3-464a-bf96-68ab95b492ee" />
        학습 결과 세부 파라미터는 runs파일의 args.yaml을 참조
