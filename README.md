@@ -13,9 +13,11 @@ https://charlezz.com/?p=45322
        NoMachine을 사용해 학습중인 모습
        <img width="1709" height="976" alt="image" src="https://github.com/user-attachments/assets/1a2ab38a-89f3-464a-bf96-68ab95b492ee" />
        학습 결과 세부 파라미터는 runs파일의 args.yaml을 참조
-   
-       정확도는
+       정확도와 재현율, mAP50등등
        <img width="971" height="241" alt="image" src="https://github.com/user-attachments/assets/9f82dd8c-7d82-45df-97f9-00d8e7c78246" />
+       본인은 A6000 GPU4장으로 학습을 진행함
+
+
 
 
 
