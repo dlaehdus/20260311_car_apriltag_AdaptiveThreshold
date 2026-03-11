@@ -1,4 +1,4 @@
-<img width="971" height="241" alt="image" src="https://github.com/user-attachments/assets/6fa90c24-69db-4fbd-a0a0-f62c0433c4e3" />기존의 Car_apriltag의 방법으로는 어두운곳에서나 조도가 바뀌면 HSV의 필터를 이용해서 번호판이 가려지는 문제가 발생함 이에 따라 HSV필터를 제거한 버전으로 사용하려 했으나 이도 조도가 낮으면 인식률이 저하됨을 확인함
+기존의 Car_apriltag의 방법으로는 어두운곳에서나 조도가 바뀌면 HSV의 필터를 이용해서 번호판이 가려지는 문제가 발생함 이에 따라 HSV필터를 제거한 버전으로 사용하려 했으나 이도 조도가 낮으면 인식률이 저하됨을 확인함
 
 따라서 이번에는 Adaptive Threshold필터를 이용해서 새롭게 데이터를 학습시키고 해당 데이터를 기반으로 인식률문제를 해결할것임
 https://charlezz.com/?p=45322
